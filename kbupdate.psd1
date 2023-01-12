@@ -30,7 +30,7 @@
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules   = @(
         # load up everything in Windows
-        @{ ModuleName = 'PSFramework'; ModuleVersion = '1.7.227' },
+        # @{ ModuleName = 'PSFramework'; ModuleVersion = '1.7.227' },
         @{ ModuleName = 'kbupdate-library'; ModuleVersion = '1.1.18' },
         @{ ModuleName = 'PSSQLite'; ModuleVersion = '1.1.0' }
     )
